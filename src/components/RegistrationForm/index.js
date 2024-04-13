@@ -108,7 +108,7 @@ class RegistrationForm extends Component {
         {showFirstNameError && <p className="error-message">Required</p>}
         {this.renderLastNameField()}
         {showLastNameError && <p className="error-message">Required</p>}
-        <button type="button" className="submit-button">
+        <button type="submit" className="submit-button">
           Submit
         </button>
       </form>
